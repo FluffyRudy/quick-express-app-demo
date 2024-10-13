@@ -1,0 +1,32 @@
+{
+  "name": "quick-express-app-demo",
+  "version": "1.0.0",
+  "description": "\"Quick demo of web app using express and mvc architecture\"",
+  "main": "index.cjs",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FluffyRudy/quick-express-app-demo.git"
+  },
+  "author": "FluffyRudy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FluffyRudy/quick-express-app-demo/issues"
+  },
+  "homepage": "https://github.com/FluffyRudy/quick-express-app-demo#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0",
+    "pg": "^8.13.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0"
+  }
+}
